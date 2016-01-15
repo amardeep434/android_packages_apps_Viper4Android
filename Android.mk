@@ -12,6 +12,8 @@ LOCAL_REQUIRED_MODULES := libV4AJniUtils
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
+LOCAL_JAVA_LIBRARIES += org.apache.http.legacy
+
 LOCAL_PACKAGE_NAME := Viper4Android
 
 LOCAL_OVERRIDES_PACKAGES := MusicFX \
