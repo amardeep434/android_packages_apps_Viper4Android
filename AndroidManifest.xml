@@ -6,6 +6,8 @@
     android:versionName="2.3.4.1" >
 
     <uses-sdk android:minSdkVersion="21"/>
+    
+    <uses-library android:name="org.apache.http.legacy" android:required="false" />
 
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" >
     </uses-permission>
