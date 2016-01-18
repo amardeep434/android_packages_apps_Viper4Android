@@ -16,8 +16,7 @@ LOCAL_JAVA_LIBRARIES += org.apache.http.legacy
 
 LOCAL_PACKAGE_NAME := Viper4Android
 
-LOCAL_OVERRIDES_PACKAGES := MusicFX \
-                            AudioFX
+LOCAL_OVERRIDES_PACKAGES := MusicFX
 
 include $(BUILD_PACKAGE)
 ##################################################
